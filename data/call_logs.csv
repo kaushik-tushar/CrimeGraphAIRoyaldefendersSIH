@@ -1,0 +1,101 @@
+Call_ID,Caller_Name,Phone_Number,Timestamp,Call_Type,Duration_Seconds,Status
+CL1001,Sai Menon,+91 919 675 9128,2026-08-28 05:53:47,Missed,0,No Answer
+CL1002,Diya Malhotra,+91 754 542 9176,2026-09-11 01:45:57,Missed,0,No Answer
+CL1003,Arjun Reddy,+91 823 112 3285,2026-09-01 23:38:23,Outgoing,0,Failed
+CL1004,Ananya Malhotra,+91 771 130 1371,2026-09-01 06:38:43,Missed,0,No Answer
+CL1005,Ananya Joshi,+91 884 936 8647,2026-09-04 02:37:44,Missed,0,No Answer
+CL1006,Meera Nair,+91 742 502 8164,2026-09-03 16:41:02,Rejected,0,Rejected
+CL1007,Vihaan Mehta,+91 930 826 9032,2026-08-19 12:41:50,Missed,0,No Answer
+CL1008,Sanya Pillai,+91 714 122 3631,2026-09-06 22:30:07,Rejected,0,Rejected
+CL1009,Rhea Verma,+91 815 925 1789,2026-08-19 17:55:28,Outgoing,3465,Completed
+CL1010,Kiara Patel,+91 798 246 7178,2026-09-09 20:46:23,Incoming,3400,Completed
+CL1011,Sanya Iyer,+91 976 394 6409,2026-09-07 02:31:10,Rejected,0,Rejected
+CL1012,Priya Rao,+91 943 650 7011,2026-08-18 02:48:24,Incoming,0,Failed
+CL1013,Neha Singh,+91 928 490 3064,2026-09-05 02:57:11,Rejected,0,Rejected
+CL1014,Aadhya Kumar,+91 914 374 3028,2026-08-15 08:24:38,Incoming,0,Failed
+CL1015,Sai Iyer,+91 971 809 9697,2026-08-21 07:24:08,Incoming,0,Failed
+CL1016,Kiara Mehta,+91 731 631 2185,2026-08-22 19:54:22,Incoming,0,Busy
+CL1017,Krishna Verma,+91 716 478 3088,2026-08-24 06:50:01,Outgoing,0,Failed
+CL1018,Diya Kumar,+91 737 636 3555,2026-08-17 09:34:06,Incoming,0,Busy
+CL1019,Aadhya Deshmukh,+91 789 128 3315,2026-08-23 20:11:56,Rejected,0,Rejected
+CL1020,Aarav Joshi,+91 940 228 9898,2026-08-22 11:34:12,Rejected,0,Rejected
+CL1021,Kiara Reddy,+91 723 816 9830,2026-09-04 05:36:11,Outgoing,0,Busy
+CL1022,Neha Kumar,+91 864 326 5539,2026-08-24 09:39:33,Rejected,0,Rejected
+CL1023,Diya Das,+91 882 133 9956,2026-08-30 02:53:49,Missed,0,No Answer
+CL1024,Rhea Kumar,+91 797 104 5843,2026-08-21 09:17:59,Rejected,0,Rejected
+CL1025,Krishna Menon,+91 862 830 7642,2026-08-26 18:01:10,Incoming,0,Busy
+CL1026,Diya Malhotra,+91 789 588 4347,2026-09-04 06:50:02,Outgoing,0,Failed
+CL1027,Aditya Singh,+91 752 884 2163,2026-08-18 03:16:27,Outgoing,3011,Completed
+CL1028,Vihaan Iyer,+91 701 102 8358,2026-09-08 01:03:22,Incoming,0,Busy
+CL1029,Sanya Menon,+91 703 998 4330,2026-08-28 12:47:14,Incoming,0,Failed
+CL1030,Diya Pillai,+91 822 495 4070,2026-09-03 15:11:37,Outgoing,0,Busy
+CL1031,Aarav Nair,+91 753 561 8656,2026-09-08 07:26:26,Outgoing,2594,Completed
+CL1032,Aditya Das,+91 823 273 7890,2026-09-03 09:59:25,Outgoing,302,Completed
+CL1033,Priya Iyer,+91 781 733 6129,2026-08-23 13:38:35,Missed,0,No Answer
+CL1034,Rhea Nair,+91 772 977 7692,2026-09-06 20:55:25,Outgoing,607,Completed
+CL1035,Krishna Mehta,+91 846 788 2583,2026-08-20 20:35:15,Incoming,0,Busy
+CL1036,Sanya Reddy,+91 744 881 2991,2026-08-27 07:01:24,Rejected,0,Rejected
+CL1037,Arjun Sharma,+91 920 897 1506,2026-09-04 04:37:42,Missed,0,No Answer
+CL1038,Arjun Mehta,+91 700 145 4991,2026-09-09 09:02:48,Outgoing,2269,Completed
+CL1039,Krishna Mehta,+91 987 934 8805,2026-08-23 21:09:04,Rejected,0,Rejected
+CL1040,Rhea Das,+91 736 591 9097,2026-09-13 18:18:19,Missed,0,No Answer
+CL1041,Neha Joshi,+91 917 961 8909,2026-09-09 21:35:13,Missed,0,No Answer
+CL1042,Kiara Bose,+91 844 978 5172,2026-09-05 07:37:52,Rejected,0,Rejected
+CL1043,Sanya Menon,+91 969 271 5561,2026-08-31 16:34:20,Rejected,0,Rejected
+CL1044,Aadhya Kulkarni,+91 965 292 2475,2026-08-26 11:12:23,Missed,0,No Answer
+CL1045,Ananya Patel,+91 734 541 5610,2026-08-19 07:59:36,Outgoing,0,Busy
+CL1046,Kiara Joshi,+91 983 697 2128,2026-08-22 15:25:46,Outgoing,1965,Completed
+CL1047,Kiara Iyer,+91 898 363 6684,2026-08-30 04:58:18,Rejected,0,Rejected
+CL1048,Meera Pillai,+91 760 147 4211,2026-09-08 04:37:35,Rejected,0,Rejected
+CL1049,Arjun Pillai,+91 946 203 9838,2026-08-23 10:50:48,Outgoing,0,Busy
+CL1050,Diya Pillai,+91 748 506 1156,2026-08-20 13:10:05,Missed,0,No Answer
+CL1051,Vihaan Mehta,+91 804 411 8928,2026-08-14 19:55:26,Missed,0,No Answer
+CL1052,Ayaan Kumar,+91 943 635 9220,2026-08-28 05:30:37,Incoming,2982,Completed
+CL1053,Aditya Sharma,+91 899 477 2986,2026-08-24 18:08:10,Outgoing,309,Completed
+CL1054,Kiara Malhotra,+91 877 731 5191,2026-08-27 02:16:38,Outgoing,3207,Completed
+CL1055,Aadhya Deshmukh,+91 902 398 9526,2026-08-27 16:03:59,Outgoing,0,Failed
+CL1056,Rhea Kumar,+91 912 871 3818,2026-08-19 11:17:57,Rejected,0,Rejected
+CL1057,Aadhya Deshmukh,+91 991 544 2618,2026-09-08 20:53:49,Missed,0,No Answer
+CL1058,Sanya Kulkarni,+91 737 567 8457,2026-08-17 06:44:29,Missed,0,No Answer
+CL1059,Aadhya Mehta,+91 895 133 3393,2026-08-25 10:56:08,Outgoing,0,Failed
+CL1060,Pooja Singh,+91 877 403 4856,2026-08-29 13:26:15,Incoming,0,Failed
+CL1061,Aarav Patel,+91 889 875 8414,2026-09-05 04:06:56,Incoming,0,Busy
+CL1062,Krishna Deshmukh,+91 998 645 7189,2026-09-08 02:04:34,Incoming,0,Failed
+CL1063,Sai Choudhury,+91 743 948 1910,2026-08-20 17:31:20,Rejected,0,Rejected
+CL1064,Pooja Nair,+91 943 601 2305,2026-08-16 11:15:57,Incoming,2884,Completed
+CL1065,Kiara Iyer,+91 879 120 7946,2026-09-11 18:25:33,Rejected,0,Rejected
+CL1066,Arjun Joshi,+91 737 289 7002,2026-08-28 15:58:24,Incoming,0,Busy
+CL1067,Ananya Choudhury,+91 721 841 2775,2026-08-24 12:58:19,Incoming,0,Busy
+CL1068,Ayaan Bose,+91 743 653 8003,2026-08-24 06:09:07,Missed,0,No Answer
+CL1069,Diya Gupta,+91 763 543 7841,2026-08-21 07:06:06,Rejected,0,Rejected
+CL1070,Neha Kumar,+91 827 538 1846,2026-08-17 06:02:24,Outgoing,0,Busy
+CL1071,Meera Menon,+91 784 601 5630,2026-08-18 21:28:52,Rejected,0,Rejected
+CL1072,Ananya Kulkarni,+91 983 898 4506,2026-09-06 04:59:50,Outgoing,1978,Completed
+CL1073,Ayaan Kumar,+91 902 582 6642,2026-09-01 06:38:36,Rejected,0,Rejected
+CL1074,Vivaan Das,+91 843 177 6483,2026-09-04 01:07:22,Missed,0,No Answer
+CL1075,Rhea Malhotra,+91 838 931 6475,2026-08-27 21:45:32,Incoming,0,Failed
+CL1076,Vihaan Menon,+91 787 594 9165,2026-08-16 02:40:03,Rejected,0,Rejected
+CL1077,Ishaan Mehta,+91 950 586 3467,2026-08-16 12:17:39,Incoming,0,Failed
+CL1078,Ishaan Gupta,+91 945 199 3654,2026-08-31 13:50:09,Incoming,0,Busy
+CL1079,Sai Choudhury,+91 786 968 9309,2026-09-05 13:00:10,Missed,0,No Answer
+CL1080,Ishaan Iyer,+91 814 151 3156,2026-09-02 05:32:26,Rejected,0,Rejected
+CL1081,Aarav Das,+91 920 466 7073,2026-08-17 01:52:06,Incoming,3095,Completed
+CL1082,Vihaan Verma,+91 733 729 6162,2026-08-21 19:32:31,Incoming,0,Failed
+CL1083,Sanya Singh,+91 779 240 7582,2026-08-31 05:56:02,Incoming,0,Failed
+CL1084,Meera Pillai,+91 982 361 5893,2026-09-11 23:55:28,Outgoing,0,Busy
+CL1085,Vihaan Nair,+91 744 839 3907,2026-08-19 23:24:37,Rejected,0,Rejected
+CL1086,Aarav Choudhury,+91 911 778 3123,2026-09-03 20:29:49,Outgoing,892,Completed
+CL1087,Vivaan Sharma,+91 814 661 9528,2026-08-26 11:14:17,Incoming,0,Failed
+CL1088,Meera Das,+91 928 283 6198,2026-08-24 04:01:21,Incoming,530,Completed
+CL1089,Meera Kulkarni,+91 873 976 7866,2026-09-07 13:01:26,Missed,0,No Answer
+CL1090,Ayaan Iyer,+91 899 626 4289,2026-08-19 22:10:12,Missed,0,No Answer
+CL1091,Ananya Choudhury,+91 925 334 7811,2026-08-23 20:42:49,Outgoing,0,Busy
+CL1092,Meera Sharma,+91 908 167 5829,2026-08-23 02:39:43,Missed,0,No Answer
+CL1093,Vihaan Patel,+91 936 424 2998,2026-09-09 16:31:54,Rejected,0,Rejected
+CL1094,Ayaan Singh,+91 820 627 3250,2026-09-06 13:58:17,Rejected,0,Rejected
+CL1095,Reyansh Bose,+91 805 259 2905,2026-08-15 20:02:52,Incoming,0,Failed
+CL1096,Diya Bose,+91 976 191 8061,2026-09-14 04:04:37,Incoming,403,Completed
+CL1097,Rhea Kumar,+91 781 212 2156,2026-08-31 22:58:16,Incoming,0,Failed
+CL1098,Krishna Malhotra,+91 862 796 2744,2026-09-08 20:07:07,Outgoing,641,Completed
+CL1099,Meera Sharma,+91 870 925 3398,2026-09-05 11:59:22,Missed,0,No Answer
+CL1100,Aadhya Patel,+91 890 833 9190,2026-09-05 01:02:34,Outgoing,0,Busy

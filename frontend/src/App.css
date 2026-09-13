@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================================================
+   Tactical Operations & Intelligence Visual System CSS
+   Dark-mode optimized with high contrast, radar animations, and scanlines.
+   ========================================================================== */
+
+:root {
+  --color-bg-base: #030712;
+  --color-panel-bg: #0b0f19;
+  --color-panel-border: #1f293d;
+  --color-accent-blue: #00f0ff;
+  --color-accent-amber: #f59e0b;
+  --color-accent-red: #ef4444;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-base);
+  color: #f3f4f6;
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --------------------------------------------------------------------------
+   Tactical Grid Pattern Background
+   -------------------------------------------------------------------------- */
+.bg-tactical-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(31, 41, 61, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(31, 41, 61, 0.25) 1px, transparent 1px);
+}
+
+.bg-radial-glow {
+  background: radial-gradient(circle at 50% 0%, rgba(0, 240, 255, 0.08) 0%, rgba(3, 7, 18, 0) 70%);
+}
+
+/* --------------------------------------------------------------------------
+   CRT Scanline & Radar Overlay Effects
+   -------------------------------------------------------------------------- */
+.scanline-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanline-overlay::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+  z-index: 10;
+  background-size: 100% 3px, 6px 100%;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+/* Pulse animation for live intelligence pings */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.live-alert-pulse {
+  animation: pulse-ring 2s infinite ease-in-out;
+}
+
+/* Dynamic radar sweep effect for network graphs */
+@keyframes radar-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-radar-sweep {
+  animation: radar-sweep 4s linear infinite;
+}
+
+/* --------------------------------------------------------------------------
+   Custom Tactical Scrollbars
+   -------------------------------------------------------------------------- */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+  border: 1px solid #334155;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00f0ff;
+}
+
+/* --------------------------------------------------------------------------
+   Monospace Utilities for Hashes, IMEIs & Coordinates
+   -------------------------------------------------------------------------- */
+.font-mono-tactical {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Roboto Mono', Monaco, Consolas, monospace;
+  letter-spacing: -0.025em;
+}
+
+/* --------------------------------------------------------------------------
+   Custom Glassmorphism Panels
+   -------------------------------------------------------------------------- */
+.tactical-card {
+  background-color: rgba(11, 15, 25, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(31, 41, 61, 0.8);
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.5);
+}
+
+.tactical-card-hover {
+  transition: all 0.2s ease-in-out;
+}
+
+.tactical-card-hover:hover {
+  border-color: rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+}
