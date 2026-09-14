@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import os
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -68,3 +69,13 @@ class CrimeDataAssistant:
             "answer": answer,
             "sources": list(set(sources))
         }
+=======
+"""
+Assistant service interface re-exporting LLM intelligence generation and risk scoring.
+"""
+
+from app.ai.llm_assistant import generate_case_insight
+from app.ai.risk_scoring import calculate_entity_risk
+
+__all__ = ["generate_case_insight", "calculate_entity_risk"]
+>>>>>>> 8eec4bb (feat(backend): complete Phase 5-7 AI engine, Deep Models, and LLM Assistant)
